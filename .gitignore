@@ -1,0 +1,26 @@
+# Ignorar node_modules (dependencias instaladas)
+node_modules/
+
+# Ignorar carpeta de build de producción
+dist/
+
+# Ignorar archivos de configuración del entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuraciones de editores de texto
+.vscode/
+.idea/
+
+# Archivos específicos de Firebase CLI
+.firebase/
